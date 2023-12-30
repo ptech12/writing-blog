@@ -84,35 +84,57 @@ body {
     font-style: italic;
 }
 
-
-/* /* .menu-box{
+.card{
+  /* border: 1px solid white; */
+  background-color: white;
+  width: 350px;
+  height: 390px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 720px;
-  flex-direction: row;
-  margin: 0;
-  /* height: 100vh; 
-  list-style: none;
-} */
-/* .menu{
-    list-style: none;
-}
-/* .menu  li {
-  /* width: 125px;
-  height: 50px; 
-  transition: background-position-x 0.9s linear;
-  text-align: center;
-} */
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 11px;
 
-/* a {
-  font-size: 22px;
-  color: #777;
-  text-decoration: none;
-  transition: all 0.45s;
-} */
-/* 
-.grid-icon, .list-icon{
-    height: 24px;
-    width: 24px;
-}  */
+}
+.card p{
+  font-family: Poppins;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  /* margin-right: 40px; */
+}
+
+.card-body{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-img{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.card-details{
+  color: #0F1217;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card-list{
+  margin-top: 50px;
+
+}
