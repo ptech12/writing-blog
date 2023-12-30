@@ -2,7 +2,7 @@ body {
   background: #232830;
   padding: 0px;
   margin: 0px;
-  height: 2000px;
+  height: 2200px;
 }
 
 .page-header {
@@ -132,8 +132,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
 }
 
 .card-list{
