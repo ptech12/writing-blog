@@ -2,7 +2,7 @@ body {
   background: #232830;
   padding: 0px;
   margin: 0px;
-  height: 2200px;
+  height: 2500px;
 }
 
 .page-header {
@@ -139,5 +139,30 @@ body {
 
 .card-list{
   margin-top: 50px;
+}
 
+.pagenation{
+  color: white;
+  font-family: Recursive;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+.pagenation a{
+  text-decoration: none;
+  color: #909090;
+  margin-left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  transition: color 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.pagenation a.active{
+  color: #FF7575;
+  border-top: 1px solid #FF7575;
+}
+.pagenation a:hover{
+  color: #FF7575;
+  border-top: 1px solid #FF7575;
 }
