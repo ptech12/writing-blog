@@ -1,0 +1,55 @@
+body{
+    background: #232830;
+    padding: 0px;
+    margin: 0px;
+    height: 2000px;
+}
+
+.page-header{
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 130px;
+}
+
+.topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+.topics p{
+    padding-right: 36px;
+}
+
+/* page main */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+
+}
+.logo-main{
+    height: 200px;
+    width: 190px;
+    padding-left: 75px;
+}
+.header-title{
+    font-family: Recursive;
+    color: #FF7575; 
+    font-style: italic;
+    font-size: 45px;
+    padding-left: 20px;
+}
+.header-desc{
+    font-family: Poppins;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    padding-left: 20px;
+}
