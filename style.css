@@ -63,7 +63,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     align-items: center;
-    align-content: center;
+    align-content[;';']: center;
     /* margin-left: 350px; */
     /* border: 1px solid white; */
     /* width: 850px; */
@@ -165,4 +165,24 @@ body {
 .pagenation a:hover{
   color: #FF7575;
   border-top: 1px solid #FF7575;
+}
+
+.footer{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left{
+  color: white;
+  font-size: 28px;
+}
+.user-name{
+  background-color: #4699E0;
+  font-size: 18px;
+  padding: 10px;
+
 }
