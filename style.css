@@ -106,6 +106,7 @@ body {
   font-size: 16px;
   margin-bottom: 0px;
   padding-top: 10px;
+  margin-top: 10px;
   /* margin-right: 40px; */
 }
 
@@ -117,7 +118,7 @@ body {
 .card-img{
   padding-left: 30px;
   padding-right: 30px;
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 8px;
 }
 
@@ -183,6 +184,29 @@ body {
 .user-name{
   background-color: #4699E0;
   font-size: 18px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
 
+.right, .right a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding-left: -50px;
+}
+.socials i{
+  padding-right: 1px;
+}
+
+.socials{
+  transition: font-size 0.1s ease;
+}
+
+.socials:hover{
+  /* background-color: green; */
+  font-size: 28px;
 }
