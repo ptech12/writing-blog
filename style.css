@@ -4,6 +4,23 @@ body {
   margin: 0px;
   height: 2500px;
 }
+.scroll-watcher{
+  position: fixed;
+  background-color: lime;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  /* scale: 0 1; */
+  height: 8px;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {scale: 1 1;}
+}
 
 .page-header {
   color: #fff;
