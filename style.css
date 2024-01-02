@@ -10,10 +10,11 @@ body {
   top: 0;
   z-index: 1000;
   width: 100%;
-  /* scale: 0 1; */
+
   height: 8px;
   scale: 0 1;
   transform-origin: left;
+  /* scroll-timeline: --scroll-watcher y; */
   animation: scroll-watcher linear;
   animation-timeline: scroll();
 }
